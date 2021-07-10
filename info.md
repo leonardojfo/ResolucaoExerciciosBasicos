@@ -1,1 +1,0 @@
-Apenas resoluções básicas das mais variadas linguagens.
