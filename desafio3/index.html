@@ -4,34 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de captura</title>
+    <title>Workshop</title>
+    <link rel="icon" href="./images/ico.png" type="img/png">
     <link href="./CSS/style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="cab">
-        PARTICIPE DO WORKSHOP QUE VAI MUDAR O SEU NEGÓCIO
-    </header>
-    
-    <main class="principal">
-            <section class="inscricao">
-                <p><strong>GARANTA O SEU LUGAR NO<br>WORKSHOP DO MAIOR<br>ESPECIALISTA EM<br>MARKETING DA<br>ATUALIDADE.</strong></p>
-                <p>Neste evento, você vai<br>aprender todos os segredos<br>que vão te fazer ser um<br>empreendedor de sucesso sem<br>precisar contar com a sorte.</p> 
-                <form method="GET" action="/inscrever">
-                    <input class="inputs" type="text" name="nome" placeholder="Nome"><br>
-                    <input class="inputs" type="email" name="email" placeholder="E-mail"><br>
-                    <select class="inputs" style="width: 183px;" name="estado">
-                        <option value="RJ">Rio de Janeiro</option>
+    <div class="container">
+        <header>
+            <h1 class="title">UMA PAGE DE CAPTURA PARA WORKSHOP</h1>
+        </header>
+        <main>
+            <div class="containerform">
+                <h2 class="mb">Um texto qualquer aqui para mostrar essa pagina</h2>
+                <p class="mb">Adicionando mais texto apenas para exibir o p</p>
+                <form method="GET" action="/cadastro">
+                    <input type="text" id="name" name="name" placeholder="Nome"><br>
+                    <input type="email" id="email" name="email" placeholder="E-mail"><br>
+                    <select name="estado">
                         <option value="SP">São Paulo</option>
-                    </select>
-                    <br><input class="enviar" type="submit" name="enviar" value="INSCREVA-SE">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </select><br>
+                    <input type="submit" value="INSCREVA-SE">
                 </form>
-            </section>
-    </main>
-
-    <footer class="rodape">
-        <h2 class="txtrp">O Palestrante</h2>
-        <p class="txtrp">Carlos bbb é conhecido por dar palestras que<br>abalam a estrutura do marketing tradicional.<br>Prepara-se para sair do evento com uma nova<br>visão do que é possível ser feito para o seu<br>negócio decolar.</p>
-    </footer>
-
+            </div>
+        </main>
+        <footer>
+            <img class="picture" src="./images/face.jpg" alt="pessoa">
+            <div class="textrp">
+                <h3>O Autor</h3>
+                <p>Pagina desenvolvida apenas para um teste.</p>
+            </div>
+        </footer>
+    </div>
+    
 </body>
 </html>
