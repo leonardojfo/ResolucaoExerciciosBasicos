@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #15161B;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    color:#FFFFFF;
+}
+
+header span{
+   color: #1A7993;
+}
+
+.section1{
+    margin-top: 130px;
+    display: flex;
+    display: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section1-texto{
+    color: white;
+}
+
+.section1-texto p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section1-texto h2{
+    font-weight: 700;
+    margin-top: 22px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.section1-texto button{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background-color: #1A7993;
+    height: 50px;
+    width: 280px;
+    border: none;
+}
+
+.section1-texto button:hover{
+    background-color: cyan;
+}
+
+.section1-imagem{
+    margin-top: 55px;
+    height: 350px;
+    width: auto;
+}
+
+.section2{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.section2 h1{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-left: 25px;
+    height: 100px;
+    width: 100px;
+    padding: 69px;
+    background-color: #2C2F37;
+}
+
+.card:hover{
+    background-color: cyan;
+}
+
+footer{
+    margin-top: 80px
+}
+
+.area-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h1{
+    color: white;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.formulario input{
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+input[type="submit"]{
+    background-color: #1A7993;
+}
+
+input[type="submit"]:hover{
+    background-color: cyan;
+}
